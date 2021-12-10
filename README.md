@@ -1,4 +1,4 @@
-# Vigenere-Cipher
+# [Vigenere Cipher](https://github.com/vasudevpooja/Vigenere-Cipher/blob/main/Vigen%C3%A8re%20Cipher%20Code.py)
 Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple form of polyalphabetic substitution. A polyalphabetic cipher is any cipher based on substitution, using multiple substitution alphabets. The encryption of the original text is done using the Vigenère square or Vigenère table.
  
 The table consists of the alphabets written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar Ciphers.
@@ -16,7 +16,7 @@ Decryption is done by the row of keys in the vigenere table. First, select the r
 
 A more easy implementation could be to visualize Vigenère algebraically by converting [A-Z] into numbers [0–25]. 
 
-# Caesar Cipher
+# [Caesar Cipher](https://github.com/vasudevpooja/Vigenere-Cipher/blob/main/Caesar%20Shift.py)
 The Caesar Cipher is a monoalphabetic rotation cipher used by Gaius Julius Caesar. Caesar rotated each letter of the plaintext forward three times to encrypt, so that A became D, B became E, etc.
     
 ![Caesar Shift](https://user-images.githubusercontent.com/76071184/145519859-6816908b-bbf7-4637-bdfd-4bbeaf0d411e.png)
