@@ -15,4 +15,8 @@ The first letter of the plaintext is combined with the first letter of the key.S
 Decryption is done by the row of keys in the vigenere table. First, select the row of the key letter, find the ciphertext letter's position in that row, and then select the column label of the corresponding ciphertext as the plaintext.
 
 A more easy implementation could be to visualize Vigenère algebraically by converting [A-Z] into numbers [0–25]. 
+
+# Caesar Cipher
+The Caesar Cipher is a monoalphabetic rotation cipher used by Gaius Julius Caesar. Caesar rotated each letter of the plaintext forward three times to encrypt, so that A became D, B became E, etc.
     
+![Caesar Shift](https://user-images.githubusercontent.com/76071184/145519859-6816908b-bbf7-4637-bdfd-4bbeaf0d411e.png)
